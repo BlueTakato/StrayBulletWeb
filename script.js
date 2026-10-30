@@ -249,7 +249,7 @@ const covers = {
 
     en: "images/portada_sb_ingles.png",
 
-    es: "images/portada_sb_español.png"
+    es: "images/portada_sb_espanol.png"
 
 };
 
