@@ -69,7 +69,7 @@ const translations = {
             "Get the Quickstart and receive news about Stray Bullet, development updates and the upcoming Kickstarter.",
 
         "newsletter.emailLabel":
-            "EMAIL ADDRESS",
+            "EMAIL ADDRESS. EVERY EMAIL WILL BE REGISTERED ONLY ONCE",
 
         "newsletter.button":
             "JOIN",
@@ -190,7 +190,7 @@ const translations = {
             "Consigue el Quickstart y recibe noticias sobre Stray Bullet, actualizaciones del desarrollo y novedades sobre el próximo Kickstarter.",
 
         "newsletter.emailLabel":
-            "DIRECCIÓN DE EMAIL",
+            "DIRECCIÓN DE EMAIL. CADA EMAIL SOLO SE REGISTRA UNA VEZ.",
 
         "newsletter.button":
             "UNIRME",
