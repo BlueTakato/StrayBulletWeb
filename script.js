@@ -259,7 +259,7 @@ const covers = {
 // CLOUDFLARE WORKER
 // =====================================================
 
-const MAILERLITE_WORKER_URL = "mailerlite.straybullet-rpg.workers.dev";
+const MAILERLITE_WORKER_URL = "https://mailerlite.straybullet-rpg.workers.dev";
 
 
 
