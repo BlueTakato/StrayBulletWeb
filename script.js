@@ -1,364 +1,9 @@
-
-const translations = {
-
-    en: {
-
-        // =========================
-        // NAVIGATION
-        // =========================
-
-        "nav.quickstart": "QUICKSTART",
-        "nav.about": "ABOUT",
-        "nav.newsletter": "JOIN THE OPERATION",
-
-
-        // =========================
-        // HERO
-        // =========================
-
-        "hero.classification":
-            "CLASSIFIED // OPERATION STRAY BULLET",
-
-        "hero.subtitle":
-            "A COLD WAR ESPIONAGE TTRPG",
-
-        "hero.description":
-            "Infiltrate. Investigate. Survive.<br>The Cold War is full of secrets.",
-
-        "hero.button":
-            "GET THE QUICKSTART",
-
-
-        // =========================
-        // QUICKSTART
-        // =========================
-
-        "quickstart.label":
-            "DOCUMENT 001",
-
-        "quickstart.title":
-            "THE QUICKSTART",
-
-        "quickstart.subtitle":
-            "Your first mission begins here.",
-
-        "quickstart.text1":
-            "Stray Bullet is a tabletop roleplaying game inspired by works like Metal Gear, James Bond and The Rock and set in the Cold War fiction of the 1960s.",
-
-        "quickstart.text2":
-            "Infiltrate enemy facilities, steal information, manipulate contacts and survive missions where one mistake can compromise everything.",
-
-        "quickstart.text3":
-            "The Quickstart contains everything you need to play your first operation.",
-
-        "quickstart.button":
-            "DOWNLOAD THE QUICKSTART",
-
-
-        // =========================
-        // NEWSLETTER
-        // =========================
-
-        "newsletter.label":
-            "PERSONNEL RECRUITMENT",
-
-        "newsletter.title":
-            "JOIN THE OPERATION",
-
-        "newsletter.description":
-            "Get the Quickstart and receive news about Stray Bullet, development updates and the upcoming Kickstarter.",
-
-        "newsletter.emailLabel":
-            "EMAIL ADDRESS. EVERY EMAIL WILL BE REGISTERED ONLY ONCE",
-
-        "newsletter.button":
-            "JOIN",
-
-        "newsletter.privacy":
-            "By joining, you agree to receive communications about Stray Bullet.",
-
-
-        // =========================
-        // ABOUT
-        // =========================
-
-        "about.label":
-            "DOSSIER",
-
-        "about.title":
-            "ABOUT STRAY BULLET",
-
-        "about.intro":
-            "Stray Bullet is a tabletop roleplaying game set against a fictionalized Cold War.",
-
-        "about.text1":
-            "Players take the role of agents operating in a world of espionage, political tension, covert operations and dangerous secrets.",
-
-        "about.text2":
-            "Information is a weapon. Trust is a liability. Every operation can change the course of the mission.",
-
-        "about.text3":
-            "Stray Bullet features...<br><br>A tactical combat system where strategy matters.<br><br>Characters with a wide range of skills with different levels of competence where it matters who performs the task and how they prepare.<br><br>The Prototype system, which allows specialization and obtaining skills capable of changing the course of the operation.",
-
-        "about.text4":"No AI will be used to generate content for Stray Bullet. All content is created by the development team.",
-
-        // =========================
-        // FOOTER
-        // =========================
-
-        "footer.about":
-            "ABOUT",
-
-        "footer.privacy":
-            "PRIVACY",
-
-        "footer.contact":
-            "CONTACT on feedback@straybulletrpg.com",
-
-        "footer.copyright":
-            "© 2026 Stray Bullet. All rights reserved."
-
-    },
-
-
-    es: {
-
-        // =========================
-        // NAVEGACIÓN
-        // =========================
-
-        "nav.quickstart":
-            "QUICKSTART",
-
-        "nav.about":
-            "SOBRE EL JUEGO",
-
-        "nav.newsletter":
-            "ÚNETE A LA OPERACIÓN",
-
-
-        // =========================
-        // HERO
-        // =========================
-
-        "hero.classification":
-            "CLASIFICADO // OPERACIÓN STRAY BULLET",
-
-        "hero.subtitle":
-            "UN JUEGO DE ROL DE ESPIONAJE DE LA GUERRA FRÍA",
-
-        "hero.description":
-            "Infíltrate. Investiga. Sobrevive.<br>La Guerra Fría está llena de secretos.",
-
-        "hero.button":
-            "CONSIGUE EL QUICKSTART",
-
-
-        // =========================
-        // QUICKSTART
-        // =========================
-
-        "quickstart.label":
-            "DOCUMENTO 001",
-
-        "quickstart.title":
-            "EL QUICKSTART",
-
-        "quickstart.subtitle":
-            "Tu primera misión comienza aquí.",
-
-        "quickstart.text1":
-            "Stray Bullet es un juego de rol de mesa inspirado en obras como Metal Gear, James Bond y The Rock, y ambientado en la ficción de la Guerra Fría de los años 60.",
-
-        "quickstart.text2":
-            "Infíltrate en instalaciones enemigas, roba información, manipula contactos y sobrevive a misiones donde un solo error puede comprometerlo todo.",
-
-        "quickstart.text3":
-            "El Quickstart contiene todo lo necesario para jugar tu primera operación.",
-
-        "quickstart.button":
-            "DESCARGA EL QUICKSTART",
-
-
-        // =========================
-        // NEWSLETTER
-        // =========================
-
-        "newsletter.label":
-            "RECLUTAMIENTO DE PERSONAL",
-
-        "newsletter.title":
-            "ÚNETE A LA OPERACIÓN",
-
-        "newsletter.description":
-            "Consigue el Quickstart y recibe noticias sobre Stray Bullet, actualizaciones del desarrollo y novedades sobre el próximo Kickstarter.",
-
-        "newsletter.emailLabel":
-            "DIRECCIÓN DE EMAIL. CADA EMAIL SOLO SE REGISTRA UNA VEZ.",
-
-        "newsletter.button":
-            "UNIRME",
-
-        "newsletter.privacy":
-            "Al unirte, aceptas recibir comunicaciones sobre Stray Bullet.",
-
-
-        // =========================
-        // ABOUT
-        // =========================
-
-        "about.label":
-            "DOSIER",
-
-        "about.title":
-            "SOBRE STRAY BULLET",
-
-        "about.intro":
-            "Stray Bullet es un juego de rol de mesa ambientado en una versión ficticia de la Guerra Fría.",
-
-        "about.text1":
-            "Los jugadores interpretan a agentes que operan en un mundo de espionaje, tensión política, operaciones encubiertas y secretos peligrosos.",
-
-        "about.text2":
-            "La información es un arma. La confianza, una responsabilidad. Cada operación puede cambiar el curso de la misión.",
-
-        "about.text3":
-            "Stray Bullet se caracteriza por...<br><br>Un sistema de combate táctico donde la estrategia importa.<br><br>Personajes con un amplio repertorio de habilidades con distintos grados de competencia donde importa quien realiza la tarea y como se prepara.<br><br> El sistema Prototipo, que permite especializarse y obtener habilidades capaces de cambiar el curso de la operación.",
-
-        "about.text4":
-            "No se usará IA para generar contenido para Stray Bullet. Todo el contenido es creado por el equipo de desarrollo.",
-
-        // =========================
-        // FOOTER
-        // =========================
-
-        "footer.about":
-            "SOBRE EL JUEGO",
-
-        "footer.privacy":
-            "PRIVACIDAD",
-
-        "footer.contact":
-            "CONTACTA en feedback@straybulletrpg.com",
-
-        "footer.copyright":
-            "© 2026 Stray Bullet. Todos los derechos reservados."
-
-    }
-
-};
-
-
-
-// =====================================================
-// QUICKSTART COVERS
-// =====================================================
-
-const covers = {
-
-    en: "images/portada_sb_ingles.png",
-
-    es: "images/portada_sb_espanol.png"
-
-};
-
-
-
 // =====================================================
 // CLOUDFLARE WORKER
 // =====================================================
 
-const MAILERLITE_WORKER_URL = "https://mailerlite.straybullet-rpg.workers.dev";
-
-
-
-// =====================================================
-// CHANGE LANGUAGE
-// =====================================================
-
-function setLanguage(language) {
-
-    const languageData = translations[language];
-
-    if (!languageData) {
-        return;
-    }
-
-
-    // -----------------------------------------
-    // Translate page
-    // -----------------------------------------
-
-    document
-        .querySelectorAll("[data-i18n]")
-        .forEach(element => {
-
-            const key = element.dataset.i18n;
-
-            if (languageData[key] !== undefined) {
-
-                element.innerHTML =
-                    languageData[key];
-
-            }
-
-        });
-
-
-    // -----------------------------------------
-    // Change Quickstart cover
-    // -----------------------------------------
-
-    const cover =
-        document.getElementById("quickstart-cover");
-
-    if (cover) {
-
-        cover.src =
-            covers[language];
-
-        cover.alt =
-            language === "es"
-                ? "Portada del Quickstart de Stray Bullet en español"
-                : "Stray Bullet Quickstart cover in English";
-
-    }
-
-
-    // -----------------------------------------
-    // Update language buttons
-    // -----------------------------------------
-
-    document
-        .querySelectorAll(".language-button")
-        .forEach(button => {
-
-            button.classList.toggle(
-                "active",
-                button.dataset.language === language
-            );
-
-        });
-
-
-    // -----------------------------------------
-    // Update HTML language
-    // -----------------------------------------
-
-    document.documentElement.lang =
-        language;
-
-
-    // -----------------------------------------
-    // Save language
-    // -----------------------------------------
-
-    localStorage.setItem(
-        "strayBulletLanguage",
-        language
-    );
-
-}
+const MAILERLITE_WORKER_URL =
+    "https://mailerlite.straybullet-rpg.workers.dev/";
 
 
 
@@ -379,14 +24,27 @@ if (newsletterForm) {
             event.preventDefault();
 
 
+            // -----------------------------------------
+            // Get form elements
+            // -----------------------------------------
+
             const emailInput =
                 document.getElementById("email");
+
+            const submitButton =
+                newsletterForm.querySelector(
+                    'button[type="submit"]'
+                );
 
 
             if (!emailInput) {
                 return;
             }
 
+
+            // -----------------------------------------
+            // Get email
+            // -----------------------------------------
 
             const email =
                 emailInput.value.trim();
@@ -397,23 +55,19 @@ if (newsletterForm) {
             }
 
 
-            // -------------------------------------
-            // Get current language
-            // -------------------------------------
+            // -----------------------------------------
+            // Get page language
+            // -----------------------------------------
 
             const language =
-                document.documentElement.lang || "en";
+                document.documentElement.lang === "es"
+                    ? "es"
+                    : "en";
 
 
-            // -------------------------------------
-            // Find submit button
-            // -------------------------------------
-
-            const submitButton =
-                newsletterForm.querySelector(
-                    'button[type="submit"]'
-                );
-
+            // -----------------------------------------
+            // Save original button text
+            // -----------------------------------------
 
             const originalButtonText =
                 submitButton
@@ -421,10 +75,13 @@ if (newsletterForm) {
                     : "";
 
 
+            // -----------------------------------------
+            // Loading state
+            // -----------------------------------------
+
             if (submitButton) {
 
-                submitButton.disabled =
-                    true;
+                submitButton.disabled = true;
 
                 submitButton.textContent =
                     language === "es"
@@ -436,9 +93,9 @@ if (newsletterForm) {
 
             try {
 
-                // ---------------------------------
+                // -------------------------------------
                 // Send to Cloudflare Worker
-                // ---------------------------------
+                // -------------------------------------
 
                 const response =
                     await fetch(
@@ -459,16 +116,22 @@ if (newsletterForm) {
                     );
 
 
+                // -------------------------------------
+                // Read response
+                // -------------------------------------
+
                 const result =
                     await response.json();
 
 
-                // ---------------------------------
+                // -------------------------------------
                 // Check response
-                // ---------------------------------
+                // -------------------------------------
 
-                if (!response.ok ||
-                    !result.success) {
+                if (
+                    !response.ok ||
+                    !result.success
+                ) {
 
                     throw new Error(
                         "Subscription failed"
@@ -477,9 +140,9 @@ if (newsletterForm) {
                 }
 
 
-                // ---------------------------------
+                // -------------------------------------
                 // Success
-                // ---------------------------------
+                // -------------------------------------
 
                 if (submitButton) {
 
@@ -494,9 +157,9 @@ if (newsletterForm) {
                 emailInput.value = "";
 
 
-                // ---------------------------------
-                // Restore button after a moment
-                // ---------------------------------
+                // -------------------------------------
+                // Restore button
+                // -------------------------------------
 
                 setTimeout(() => {
 
@@ -521,9 +184,9 @@ if (newsletterForm) {
                 );
 
 
-                // ---------------------------------
+                // -------------------------------------
                 // Error
-                // ---------------------------------
+                // -------------------------------------
 
                 if (submitButton) {
 
@@ -543,42 +206,3 @@ if (newsletterForm) {
     );
 
 }
-
-
-
-// =====================================================
-// LANGUAGE BUTTONS
-// =====================================================
-
-document
-    .querySelectorAll(".language-button")
-    .forEach(button => {
-
-        button.addEventListener(
-            "click",
-            () => {
-
-                setLanguage(
-                    button.dataset.language
-                );
-
-            }
-        );
-
-    });
-
-
-
-// =====================================================
-// INITIAL LANGUAGE
-// =====================================================
-
-const savedLanguage =
-    localStorage.getItem(
-        "strayBulletLanguage"
-    );
-
-
-setLanguage(
-    savedLanguage || "en"
-);
