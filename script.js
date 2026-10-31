@@ -43,7 +43,7 @@ const translations = {
             "Your first mission begins here.",
 
         "quickstart.text1":
-            "Stray Bullet is a tabletop roleplaying game inspired by the espionage thrillers and Cold War fiction of the 1960s.",
+            "Stray Bullet is a tabletop roleplaying game inspired by works like Metal Gear, James Bond and The Rock and set in the Cold War fiction of the 1960s.",
 
         "quickstart.text2":
             "Infiltrate enemy facilities, steal information, manipulate contacts and survive missions where one mistake can compromise everything.",
@@ -97,6 +97,10 @@ const translations = {
         "about.text2":
             "Information is a weapon. Trust is a liability. Every operation can change the course of the mission.",
 
+        "about.text3":
+            "Stray Bullet features...<br><br>A tactical combat system where strategy matters.<br><br>Characters with a wide range of skills with different levels of competence where it matters who performs the task and how they prepare.<br><br>The Prototype system, which allows specialization and obtaining skills capable of changing the course of the operation.",
+
+        "about.text4":"No AI will be used to generate content for Stray Bullet. All content is created by the development team.",
 
         // =========================
         // FOOTER
@@ -109,7 +113,7 @@ const translations = {
             "PRIVACY",
 
         "footer.contact":
-            "CONTACT",
+            "CONTACT on feedback@straybulletrpg.com",
 
         "footer.copyright":
             "© 2026 Stray Bullet. All rights reserved."
@@ -144,7 +148,7 @@ const translations = {
             "UN JUEGO DE ROL DE ESPIONAJE DE LA GUERRA FRÍA",
 
         "hero.description":
-            "Infiltra. Investiga. Sobrevive.<br>La Guerra Fría está llena de secretos.",
+            "Infíltrate. Investiga. Sobrevive.<br>La Guerra Fría está llena de secretos.",
 
         "hero.button":
             "CONSIGUE EL QUICKSTART",
@@ -164,7 +168,7 @@ const translations = {
             "Tu primera misión comienza aquí.",
 
         "quickstart.text1":
-            "Stray Bullet es un juego de rol de mesa inspirado en los thrillers de espionaje y la ficción de la Guerra Fría de los años 60.",
+            "Stray Bullet es un juego de rol de mesa inspirado en obras como Metal Gear, James Bond y The Rock, y ambientado en la ficción de la Guerra Fría de los años 60.",
 
         "quickstart.text2":
             "Infíltrate en instalaciones enemigas, roba información, manipula contactos y sobrevive a misiones donde un solo error puede comprometerlo todo.",
@@ -218,6 +222,11 @@ const translations = {
         "about.text2":
             "La información es un arma. La confianza, una responsabilidad. Cada operación puede cambiar el curso de la misión.",
 
+        "about.text3":
+            "Stray Bullet se caracteriza por...<br><br>Un sistema de combate táctico donde la estrategia importa.<br><br>Personajes con un amplio repertorio de habilidades con distintos grados de competencia donde importa quien realiza la tarea y como se prepara.<br><br> El sistema Prototipo, que permite especializarse y obtener habilidades capaces de cambiar el curso de la operación.",
+
+        "about.text4":
+            "No se usará IA para generar contenido para Stray Bullet. Todo el contenido es creado por el equipo de desarrollo.",
 
         // =========================
         // FOOTER
@@ -230,7 +239,7 @@ const translations = {
             "PRIVACIDAD",
 
         "footer.contact":
-            "CONTACTO",
+            "CONTACTA en feedback@straybulletrpg.com",
 
         "footer.copyright":
             "© 2026 Stray Bullet. Todos los derechos reservados."
